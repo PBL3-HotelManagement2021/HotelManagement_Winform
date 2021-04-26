@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HotelManagement.ViewModel
 {
-    class RoomVM
+   public class RoomVM
     {
         public RoomVM()
         {

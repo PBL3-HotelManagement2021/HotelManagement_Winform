@@ -1,4 +1,5 @@
 using HotelManagement.BBL.Implement;
+using HotelManagement.BLL.Implement;
 using HotelManagement.BLL.Interface;
 using HotelManagement.DAL.Implement;
 using HotelManagement.DAL.Interface;
@@ -61,6 +62,8 @@ namespace HotelManagement
             services.AddTransient<IRoomtypeDAL, RoomtypeDAL>();
             services.AddTransient<IRoomTypeBLL, RoomTypeBLL>();
             services.AddTransient<IImgStorageDAL,ImgStorageDAL>();
+            services.AddTransient<IRoomBLL, RoomBLL>();
+            services.AddTransient<IRoomDAL, RoomDAL>();
       
             
 
