@@ -45,3 +45,12 @@ INSERT INTO HotelManagementREAL.dbo.room( id_room, room_name, room_description, 
 INSERT INTO HotelManagementREAL.dbo.room( id_room, room_name, room_description, room_idroomtype ) VALUES ( 5, 'A104', null, 1);
 INSERT INTO HotelManagementREAL.dbo.room( id_room, room_name, room_description, room_idroomtype ) VALUES ( 6, 'A105', null, 2);
 INSERT INTO HotelManagementREAL.dbo.room( id_room, room_name, room_description, room_idroomtype ) VALUES ( 7, 'A106', null, 1);
+
+
+insert into HotelManagementREAL.dbo.status(sta_name , sta_description) values ('Maintained','Room is maintained for better service');
+insert into HotelManagementREAL.dbo.status(sta_name , sta_description) values ('Bookes','This room is being booked');
+insert into HotelManagementREAL.dbo.status(sta_name , sta_description) values ('Occupied','Guests have already taken this room');
+
+
+insert into HotelManagementREAL.dbo.status_time(statim_fromdate,statim_todate,statim_idroom,statim_idstatus) values ('03/15/2021','03/08/2021',1,1);
+insert into HotelManagementREAL.dbo.status_time(statim_fromdate,statim_todate,statim_idroom,statim_idstatus) values ('03/01/2021','02/21/2021',2,2);

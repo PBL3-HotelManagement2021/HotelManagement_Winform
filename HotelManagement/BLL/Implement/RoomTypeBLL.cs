@@ -38,6 +38,8 @@ namespace HotelManagement.BBL.Implement
             return listVM;
         }
 
+        public void 
+
         public void addRoomType(RoomTypeVM roomTypeVM)
         {
             int idRoomType = _iRoomTypeDAL.getnextid();

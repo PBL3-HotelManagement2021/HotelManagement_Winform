@@ -20,7 +20,7 @@ namespace HotelManagement.BLL.Implement
         }
         public List<RoomVM> getAll(int pages, int rows, string orderby)
         {
-            int start = pages * rows;
+            int start = (pages-1) * rows;
             int length = rows;
             List<Room> listRoom = _iRoomDAL.getall(start, length, orderby);
             List<RoomVM> listRoomVM = new List<RoomVM>();
@@ -30,6 +30,12 @@ namespace HotelManagement.BLL.Implement
                 int id = room.RoomIdroomtypeNavigation.IdRoomtype;
                 string roomname = room.RoomIdroomtypeNavigation.RotyName;
                 roomVM.MapRoomtype.Add(id, roomname);
+                foreach(StatusTime statusTime in room.StatusTimes)
+                {
+                    StatusTimeVM statusTimeVM = _iMapper.Map<StatusTimeVM>(statusTime);
+                    statusTimeVM.statusVM = _iMapper.Map<StatusVM>(statusTime.StatimIdstatusNavigation);
+                    roomVM.ListStatusTime.Add(statusTimeVM);
+                }
                 listRoomVM.Add(roomVM);
             }
             return listRoomVM;

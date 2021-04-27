@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace HotelManagement.Model
 {
     [Table("status_time")]
+
     public partial class StatusTime
     {
         [Key]
