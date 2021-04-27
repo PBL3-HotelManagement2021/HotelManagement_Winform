@@ -4,8 +4,6 @@ using System.Text;
 
 namespace HotelManagement.ViewModel
 {
-    class UserVM
-    {
         public class UserVM
         {
 
@@ -20,5 +18,4 @@ namespace HotelManagement.ViewModel
 
             public List<RoleVM> roleVMlist { get; set; }
         }
-    }
 }

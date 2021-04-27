@@ -57,13 +57,14 @@ namespace HotelManagement
                  /* configuration.GetConnectionString("DefaultConnection")*/
                  ConfigurationManager.ConnectionStrings["HotelManagementDB"].ConnectionString
           ));
-           /* services.AddTransient<IUserDAL, UserDAL>();
-            services.AddTransient<IUserBBL, UserBBL>();*/
+            services.AddTransient<IUserDAL, UserDAL>();
+            services.AddTransient<IUserBLL, UserBLL>();
             services.AddTransient<IRoomtypeDAL, RoomtypeDAL>();
             services.AddTransient<IRoomTypeBLL, RoomTypeBLL>();
             services.AddTransient<IImgStorageDAL,ImgStorageDAL>();
             services.AddTransient<IRoomBLL, RoomBLL>();
             services.AddTransient<IRoomDAL, RoomDAL>();
+            
       
             
 

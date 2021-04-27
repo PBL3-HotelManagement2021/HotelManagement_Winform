@@ -9,9 +9,9 @@ namespace HotelManagement.ViewModel
         public MappingProfile()
         {
 
-/*            CreateMap<User, UserVM>().ReverseMap();
+            CreateMap<User, UserVM>().ReverseMap();
             CreateMap<Role, RoleVM>().ReverseMap();
-            CreateMap<Menu, MenuVM>().ReverseMap();*/
+            CreateMap<Menu, MenuVM>().ReverseMap();
             CreateMap<RoomType, RoomTypeVM>().ReverseMap();
             CreateMap<RoomVM, Room>().ReverseMap();
             CreateMap<StatusTimeVM, StatusTime>().ReverseMap();

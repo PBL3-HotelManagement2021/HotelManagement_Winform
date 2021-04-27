@@ -17,13 +17,15 @@ namespace HotelManagement
     {
         private IRoomTypeBLL _iRoomTypeBLL;
         private IRoomBLL _iRoomBLL;
-        public Form1 (IRoomTypeBLL iRoomTypeBLL , IRoomBLL iRoomBLL)
+        private IUserBLL _iUserBLL;
+        public Form1(IRoomTypeBLL iRoomTypeBLL, IRoomBLL iRoomBLL, IUserBLL iUserBLL)
         {
             InitializeComponent();
-            Console.WriteLine("dasda");
+            _iUserBLL = iUserBLL;
             _iRoomBLL = iRoomBLL;
             _iRoomTypeBLL = iRoomTypeBLL;
-            getAllRoom();
+            /* getAllRoom();*/
+            getAllUSer();
         }
 
         public void getAllRoomType()
@@ -39,10 +41,16 @@ namespace HotelManagement
 
         public void getAllRoom()
         {
-            List<RoomVM> listVm = _iRoomBLL.getAll(1,2,"HELO");
+            List<RoomVM> listVm = _iRoomBLL.getAll(1, 2, "HELO");
             string json = JsonConvert.SerializeObject(listVm, Formatting.Indented);
             richTextBox1.Text = json;
         }
 
+        public void getAllUSer()
+        {
+            List<UserVM> userVMlist = _iUserBLL.searchUser("","");
+            string json = JsonConvert.SerializeObject(userVMlist, Formatting.Indented);
+            richTextBox1.Text = json;
+        }
     }
 }
