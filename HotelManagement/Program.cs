@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-
+using HotelManagement.View;
 using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
@@ -46,7 +46,7 @@ namespace HotelManagement
                             .Build();
 
             var services = host.Services;
-            var mainForm = services.GetRequiredService<Form1>();
+            var mainForm = services.GetRequiredService<Form_Home_Admin>();
             Application.Run(mainForm);
         }
 
@@ -68,8 +68,8 @@ namespace HotelManagement
             
 
             services.AddAutoMapper(typeof(Program));
-       
 
+            services.AddSingleton<Form_Home_Admin>();
             services.AddSingleton<Form1>();
             services.AddTransient<Form2>();
         }

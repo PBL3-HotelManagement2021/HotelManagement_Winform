@@ -8,16 +8,11 @@ using System.Windows.Forms;
 
 namespace HotelManagement.View
 {
-    public partial class Form_Home_Admin : Form
+    public partial class UserControl_Receptionist_Admin : UserControl
     {
-        public Form_Home_Admin()
+        public UserControl_Receptionist_Admin()
         {
             InitializeComponent();
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
         }
     }
 }
