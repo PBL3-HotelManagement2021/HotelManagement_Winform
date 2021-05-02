@@ -46,7 +46,7 @@ namespace HotelManagement
                             .Build();
 
             var services = host.Services;
-            var mainForm = services.GetRequiredService<Form_Home_Admin>();
+            var mainForm = services.GetRequiredService<Form_Login>();
             Application.Run(mainForm);
         }
 
@@ -70,6 +70,7 @@ namespace HotelManagement
             services.AddAutoMapper(typeof(Program));
 
             services.AddSingleton<Form_Home_Admin>();
+            services.AddSingleton<Form_Login>();
             services.AddSingleton<Form1>();
             services.AddTransient<Form2>();
         }

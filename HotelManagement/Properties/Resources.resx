@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="feedback_hub_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\View\Materials\feedback_hub_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="waste_fluent_color_96px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\waste_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_property_fluent_color_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\View\Materials\edit_property_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="close_window_fluent_color_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\close_window_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="accounting_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\View\Materials\accounting_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,8 +136,14 @@
   <data name="food_service_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\View\Materials\food_service_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logout_rounded_up_windows10_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\logout_rounded_up_windows10_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add_fluent_color_96px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\View\Materials\add_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_window_fluent_color_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\minimize_window_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\View\Materials\home_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,8 +163,23 @@
   <data name="edit_property_fluent_color_96px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\View\Materials\edit_property_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logout_rounded_up_windows10_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\View\Materials\logout_rounded_up_windows10_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="feedback_hub_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\feedback_hub_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_fluent_color_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\cancel_fluent_color_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_property_fluent_color_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\edit_property_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_window_fluent_color_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\minimize_window_fluent_color_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compress_fluent_color_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\compress_fluent_color_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shrink_fluent_color_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\shrink_fluent_color_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add_fluent-color_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\View\Materials\add_fluent-color_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,7 +190,7 @@
   <data name="male_user_windows10_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\View\Materials\male_user_windows10_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="waste_fluent_color_96px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\View\Materials\waste_fluent_color_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete_fluent_color_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\View\Materials\delete_fluent_color_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
