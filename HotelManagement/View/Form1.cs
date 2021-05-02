@@ -25,9 +25,32 @@ namespace HotelManagement
             _iRoomBLL = iRoomBLL;
             _iRoomTypeBLL = iRoomTypeBLL;
             /* getAllRoom();*/
-            getAllUSer();
+          /*  getAllUSer();*/
+            UpdateRoom();
         }
 
+        public void  UpdateRoom()
+        {
+            RoomVM roomVM = _iRoomBLL.getAll(1, 2, "hello")[0];
+            roomVM.RoomName = "Room1";
+            //edit status time
+            roomVM.ListStatusTime[1].StatimTodate = Convert.ToDateTime("01/10/2021");
+
+            //add Status time
+          /*  StatusVM statusVM = new StatusVM();
+            statusVM.IdStatus = 1;
+            StatusTimeVM statusTimeVM = new StatusTimeVM();
+            //statusTimeVM.IdStatim = 4; //gia su minh sua lai thong tin tk status_time da co trong db
+            statusTimeVM.StatimFromdate = DateTime.Now;
+            statusTimeVM.StatimTodate = Convert.ToDateTime("12/12/2021");
+            statusTimeVM.statusVM = statusVM;
+            roomVM.ListStatusTime.Add(statusTimeVM);*/
+
+            //del sattus time
+            // List<int>listdel = new List<int>();
+            // listdel.Add(3);
+            _iRoomBLL.editRoom(roomVM, null);
+        }
         public void getAllRoomType()
         {
             List<RoomTypeVM> listVM = _iRoomTypeBLL.getAll();

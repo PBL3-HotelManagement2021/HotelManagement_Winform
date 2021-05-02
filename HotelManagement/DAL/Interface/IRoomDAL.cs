@@ -8,6 +8,8 @@ namespace HotelManagement.DAL.Interface
     public interface IRoomDAL
     {
         List<Room> getall(int page, int rows, string orderby);
-        Room findbyid();
+        Room findbyid(int id);
+        void update(Room room);
+        void delete(List<int> listdel);
     }
 }
