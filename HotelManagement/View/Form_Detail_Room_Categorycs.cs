@@ -8,11 +8,16 @@ using System.Windows.Forms;
 
 namespace HotelManagement.View
 {
-    public partial class Form3_Detail_Room_Categorycs : Form
+    public partial class Form_Detail_Room_Categorycs : Form
     {
-        public Form3_Detail_Room_Categorycs()
+        public Form_Detail_Room_Categorycs()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

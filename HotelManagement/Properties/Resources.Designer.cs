@@ -263,6 +263,16 @@ namespace HotelManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap select_none_fluent_system_filled_48px {
+            get {
+                object obj = ResourceManager.GetObject("select_none_fluent_system_filled_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shrink_fluent_color_48px {
             get {
                 object obj = ResourceManager.GetObject("shrink_fluent_color_48px", resourceCulture);
