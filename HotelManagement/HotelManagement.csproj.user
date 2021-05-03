@@ -7,6 +7,12 @@
     <Compile Update="View\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\Form3_Detail_Room_Categorycs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Form_Detail_Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\Form_Home_Admin.cs">
       <SubType>Form</SubType>
     </Compile>

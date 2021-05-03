@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yHy8FqMBNYM+xN48nwC30GjyKw+qlNECphiM86uL602CcxIcUwAMS336DqFnuvFi+S/rKynoguSFz+IgL4jtTA==",
+  "dgSpecHash": "FVoawfcCwJ6XPK2/IyXBlqJqyQPGFZ+9zaYaUe+KkKppi8nIMhavOcaR1oQ5NF+bLowx6ApSWyVlnqTDq4GBmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\toand\\Source\\Repos\\HotelManagement_Winform\\HotelManagement\\HotelManagement.csproj",
+  "projectFilePath": "C:\\Users\\toand\\source\\repos\\HotelManagement_Winform\\HotelManagement\\HotelManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\toand\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\toand\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

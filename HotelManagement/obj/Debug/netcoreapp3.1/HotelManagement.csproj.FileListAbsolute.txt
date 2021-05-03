@@ -176,3 +176,5 @@ C:\Users\toand\Source\Repos\HotelManagement_Winform\HotelManagement\obj\Debug\ne
 C:\Users\toand\Source\Repos\HotelManagement_Winform\HotelManagement\obj\Debug\netcoreapp3.1\HotelManagement.genruntimeconfig.cache
 C:\Users\toand\Source\Repos\HotelManagement_Winform\HotelManagement\obj\Debug\netcoreapp3.1\HotelManagement.View.UserControl_Receptionist_Admin.resources
 C:\Users\toand\Source\Repos\HotelManagement_Winform\HotelManagement\obj\Debug\netcoreapp3.1\HotelManagement.View.Form_Login.resources
+C:\Users\toand\source\repos\HotelManagement_Winform\HotelManagement\obj\Debug\netcoreapp3.1\HotelManagement.View.Form3_Detail_Room_Categorycs.resources
+C:\Users\toand\source\repos\HotelManagement_Winform\HotelManagement\obj\Debug\netcoreapp3.1\HotelManagement.View.Form_Detail_Room.resources
